@@ -1,0 +1,66 @@
+#navigation {
+    display: flex;
+    align-items: center;
+    background-color: rgb(26, 0, 41);
+    padding: 30px;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-weight: 300;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+#logo-title {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 800;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#hero-section h1 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 800;
+    font-size: 130px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+
+#hero-section p {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+
+body p {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 20px;
+}
