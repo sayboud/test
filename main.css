@@ -64,3 +64,84 @@ body p {
     font-size: 30px;
     padding: 20px;
 }
+
+.section-black {
+    background-color: rgb(26, 0, 41);
+}
+
+.section-black h1 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    color: #804299;
+    text-align: left;
+    margin:0%;
+    padding: 20px;
+}
+
+.section-black p {
+    color: whitesmoke;
+}
+
+.section-white {
+    background-color: whitesmoke;
+}
+
+.section-white h1 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    color: #804299;
+    text-align: left;
+    margin:0%;
+    padding: 20px;
+}
+
+body h2 {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    color: #804299;
+    text-align: left;
+    margin:0%;
+    padding: 20px;
+}
+
+.contacts .contact-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-links a {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #804299;
+  }
+
+  .gradient-text {
+    background: linear-gradient(90deg, red, orange, #f9f871, lightgreen, rgb(106, 189, 216), rgb(135, 47, 203));
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 10s ease infinite;
+  }
+  
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
