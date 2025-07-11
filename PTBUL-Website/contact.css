@@ -1,0 +1,107 @@
+.contact-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 50px; /* Space between image and form */
+  }
+  
+  .contact-image {
+    flex: 1;
+    max-width: 500px; /* Prevent image from being too wide */
+  }
+  
+  .contact-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px; /* Optional: rounded corners */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Inputs stretch to container width */
+    gap: 20px;
+    flex: 1; /* Let it grow to use space */
+    max-width: 600px; /* Prevent too wide on big screens */
+    width: 100%;
+  }
+  
+  .contact-inputs {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: rgb(26, 0, 41);
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+    height: 200px; /* Bigger textarea for PC */
+    min-height: 150px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    resize: vertical;
+    box-sizing: border-box;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 500;
+    color: rgb(26, 0, 41);
+    border: none;
+    outline: none;
+  }
+  
+  .contact-inputs:focus,
+  .contact-form textarea:focus {
+    border: 2px solid rgb(235, 75, 22);
+  }
+  
+  .contact-form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(26, 0, 41);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container2 {
+      flex-direction: column;
+      justify-content: center;
+      height: auto;
+      gap: 0; /* Remove gap for stacked layout */
+    }
+  
+    .contact-image {
+      display: none; /* Hide image on tablet & mobile */
+    }
+  
+    .contact-form {
+      max-width: 100%;
+    }
+  
+    .contact-form button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-container2 {
+      padding: 1rem;
+    }
+  
+    .contact-form button {
+      width: 100%;
+      justify-content: center;
+    }
+  }
